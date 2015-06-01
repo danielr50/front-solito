@@ -1,0 +1,219 @@
+/* css */
+
+body{
+	background:url(img/concrete_seamless.png);
+}
+
+
+.navBar{
+	
+	height: 100px;
+}
+
+
+
+.footerClase{
+	border-radius:10px;
+	height: 100px;
+	margin-top:3%;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	color:white;
+	margin-left:10px;
+	background:#B0012A;
+}
+
+#footer2{
+	border-radius:10px;
+	height: 100px;
+	margin-top:3%;
+	border-top-right-radius:40px;
+	border-bottom-right-radius:10px;
+	
+}
+
+#main_foto_rocket {
+  position: absolute;
+  top: -66px;
+  left: -42%;
+  height: 90px;
+  width: 66%;
+ 
+}
+
+#main_foto_moto {
+  position: absolute;
+  top: 129px;
+  left: -34%;
+  height: 90px;
+  width: 49%;
+}
+
+#main_resume_right {
+  position: absolute;
+  top: 25px;
+    right: -9%;
+  height: 174px;
+  width: 14%;
+  background: #4260ac;
+  border-radius: 20px;
+}
+
+#contenedor_2{
+	margin-top:20px;
+	height:300px;
+	background: violet;
+	min-height:100%;
+	width:100%;
+}
+
+#mainSection{
+	margin-top:1%;
+	
+	position:relative;	
+	
+	height: 400px;
+	color:white;
+	text-align: center;
+}
+
+
+#boton-uno{
+	
+}
+
+#boton-uno:hover{
+	background:#4260ac;
+	color:#B0012A;
+}
+#boton-dos{
+	
+}
+#boton-dos:hover{
+	background:#4260ac;
+	color:#B0012A;
+}
+#boton-tres{
+	
+}
+
+#boton-tres:hover{
+	background:#4260ac;
+	color:#B0012A;
+}
+#main_MAIN{
+	padding:30px;
+	position:absolute;
+	
+	border:2px solid pink;
+	width: 100%;
+	margin-left:4.5%;
+	height:100%;
+	
+
+	background: #ec043a;
+  background: -moz-radial-gradient(center, ellipse cover, #ec043a 0%, #c90331 39%, #c40330 44%, #940023 98%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ec043a), color-stop(39%, #c90331), color-stop(44%, #c40330), color-stop(98%, #940023));
+  background: -webkit-radial-gradient(center, ellipse cover, #ec043a 0%, #c90331 39%, #c40330 44%, #940023 98%);
+  background: -o-radial-gradient(center, ellipse cover, #ec043a 0%, #c90331 39%, #c40330 44%, #940023 98%);
+  background: -ms-radial-gradient(center, ellipse cover, #ec043a 0%, #c90331 39%, #c40330 44%, #940023 98%);
+  background: radial-gradient(ellipse at center, #ec043a 0%, #c90331 39%, #c40330 44%, #940023 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec043a', endColorstr='#940023', GradientType=1 );
+
+	
+    border: 1px solid #333;
+
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 3px 1px 0 black;
+  -moz-box-shadow: 3px 3px 1px 0 black;
+  -ms-box-shadow: 3px 3px 1px 0 black;
+  -o-box-shadow: 3px 3px 1px 0 black;
+  box-shadow: 3px 3px 1px 0 black;	
+
+}
+
+
+#formulario {
+  position: absolute;
+  padding: 30px;
+  
+  width: 84%;
+  
+  border-radius: 20px;
+  left: 6px;  
+}
+
+.botones_ingreso{
+	position:relative;
+	width:150px;
+	height:150px;
+	background: red;
+	padding:40px;
+	margin:20px;
+	margin-top:3px;
+}
+
+.menu_derecho{
+	display:inline-block;
+	list-style-type: none;
+	position:relative;
+	left:-60px;
+	margin-top:5px;
+	
+}
+
+#boton-derecho-login1{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+	padding-bottom:20px;
+	height:40px;
+}
+#boton-derecho-login2{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:40px;
+	padding:10px;
+	padding-bottom:20px;
+}
+
+#logo{
+	position:relative;
+	left:-20px;
+	top:10px;
+}
+
+#formulario-espacio-inf{
+	margin-bottom:39px;
+}
+
+.input-group {
+
+  margin-bottom: 14px;
+  margin-left: -16px;
+}
+
+/* media queries */
+@media screen and (max-width: 543px) {
+	    #main_foto_rocket{
+		position:absolute;
+		top: -80px;
+		left:-22%;
+		height:90px;
+		width:59%;
+		
+	}
+
+		#main_foto_moto{
+		position:absolute;
+		top: -3%;
+		letter-spacing: -10px;%;
+		height:90px;
+		width:49%;
+		
+	}
+}
